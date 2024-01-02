@@ -1,6 +1,7 @@
 permalink: /:year/:i_month/:i_day/:title.html
 lang: pt-BR
 url: 'https://gabrielp18.github.io/'
+baseurl: /gabrielp18.github.io
 github:
   username: gabrielp18
 exclude: [Rakefile, Gemfile, Gemfile.lock, README.markdown, Capfile, bin, s3_website.yml, tmp]
