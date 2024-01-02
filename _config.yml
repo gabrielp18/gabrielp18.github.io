@@ -13,7 +13,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-feed
-theme: jekyll-theme-so-simple
+remote_theme: jekyll-theme-so-simple
 masthead_title: Home
 title: "Gabriel Pires | @eusouquant"
 logo: "/images/aa.jpg"
