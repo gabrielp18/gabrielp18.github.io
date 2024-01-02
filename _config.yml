@@ -61,7 +61,8 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: false
+      comments: true
+      applause_button: true
       share: false
 
 locale: pt-BR
