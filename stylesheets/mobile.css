@@ -1,0 +1,122 @@
+li {
+  line-height: normal;
+}
+
+.default {
+  display: none;
+}
+
+.mobile {
+  display: inherit;
+}
+
+#head {
+  height: 190px;
+}
+
+#head h1 {
+  font-size: 30px;
+}
+
+#head #about {
+  width: 95%;
+}
+
+#head #about h1, #head #about h1 a {
+}
+
+#head #about p {
+  display: none;
+}
+
+#header-content {
+  width: 95%;
+  max-width: 100%;
+}
+
+#box {
+  width: 95%;
+  max-width: 100%;
+}
+
+#content {
+  line-height: normal;
+}
+
+html>body #box {
+  width: 95%;
+  max-width: 100%;
+}
+
+@media handheld, only screen and (max-device-width: 812px) {
+  #content {
+    font-size: 1.0em;
+  }
+  
+  * {
+    font-size: 1.0em;
+  } 
+}
+
+@media all and (orientation: landscape) {
+  #head #about h1, #head #about h1 a {
+  }
+
+  #head {
+    height: 130px;
+  }
+
+  #head #about {
+    padding-top: 40px;
+  }
+
+  * {
+    -webkit-text-size-adjust: auto;
+  }
+}
+
+@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  * {
+  }
+
+  #head #about h1, #head #about h1 a {
+  }
+
+  #head #about {
+    padding-top: 40px;
+  }
+
+  #head {
+    height: 100px;
+  }
+  * {
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  #content {
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+@media screen and (max-device-width: 768px) and (max-device-height: 1024px) and (orientation:landscape) {
+
+  #head #about h1, #head #about h1 a {
+  }
+
+  #head #about {
+    padding-top: 50px;
+  }
+
+  #head {
+    height: 100px;
+  }
+  
+  * {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  #content {
+    -webkit-text-size-adjust: 100%;
+  }
+
+}

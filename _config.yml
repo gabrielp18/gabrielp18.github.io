@@ -1,0 +1,72 @@
+permalink: /:year/:i_month/:i_day/:title.html
+lang: pt-BR
+exclude: [Rakefile, Gemfile, Gemfile.lock, README.markdown, Capfile, bin, s3_website.yml, tmp]
+paginate: 5
+paginate_path: /page:num/
+plugins:
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-feed
+theme: jekyll-theme-so-simple
+masthead_title: Home
+title: "Gabriel Pires | @eusouquant"
+logo: "/images/aa.jpg"
+description: "Quantitative Analyst"
+masthead_bio: "Compartilhando conhecimento para ajudar você a atingir seus objetivos!"
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+search: true
+
+author:
+  name: "Gabriel Pires"
+  location: "São Paulo, Brasil"
+  picture: "/images/aa.jpg"
+  bio: "Quantitative Analyst"
+  links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/eusouquant/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/gabrielpires1995/"
+    - label: "Fale comigo!"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "/contact/"
+
+footer_links:
+  - title: "Instagram"
+    icon: "fab fa-fw fa-instagram"
+    url: "https://www.instagram.com/eusouquant/"
+  - title: "Fale comigo!"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "/contact/"
+
+url: "https://github.com/gabrielp18"
+feed:
+  path: feed.xml
+
+defaults:
+  # _posts
+  defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: false
+      share: false
+
+locale: pt-BR
+
+copyright: 2024 Gabriel Pires
+
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"

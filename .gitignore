@@ -1,0 +1,8 @@
+*.swp
+_site
+tags
+paperplanes.tmproj
+bin
+.bundle
+.DS_Store
+.jekyll-cache
