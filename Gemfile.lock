@@ -284,8 +284,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  github-pages (~> 228)
-  jekyll (~> 3.9.3)
+  github-pages
   jekyll-archives
   jekyll-include-cache
   jekyll-paginate
