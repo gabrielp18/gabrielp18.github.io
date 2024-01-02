@@ -35,7 +35,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/eusouquant/"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/gabrielpires1995/"
 
 footer_links:
@@ -43,7 +43,7 @@ footer_links:
     icon: "fab fa-fw fa-instagram"
     url: "https://www.instagram.com/eusouquant/"
   - title: "LinkedIn"
-    icon: "fas fa-linkedin-in"
+    icon: "fab fa-fw fa-linkedin-in"
     url: "https://www.linkedin.com/in/gabrielpires1995/"
 
 feed:
