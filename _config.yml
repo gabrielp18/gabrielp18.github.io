@@ -37,17 +37,14 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/gabrielpires1995/"
-    - label: "Fale comigo!"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "/contact/"
 
 footer_links:
   - title: "Instagram"
     icon: "fab fa-fw fa-instagram"
     url: "https://www.instagram.com/eusouquant/"
-  - title: "Fale comigo!"
+  - title: "LinkedIn"
     icon: "fas fa-fw fa-envelope-square"
-    url: "/contact/"
+    url: "https://www.linkedin.com/in/gabrielpires1995/"
 
 feed:
   path: feed.xml
