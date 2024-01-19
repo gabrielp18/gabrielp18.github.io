@@ -24,13 +24,6 @@ A verificação de cointegração pode ser feito utilizando os teste de Johansen
 
 O ponto principal da realização de um teste ADF na estratégia é garantir se o par de ativos são estacionários ou não. Assim, para que o par de ativos seja negociado na estratégia de pairs trading, é necessário que a série temporal seja estacionária. Uma série temporal estacionária faz previsões eficazes e precisas. Além disso, uma série temporal estacionária significa que o par de ativos são cointegrados e pode ser negociado em conjunto através da geração de sinais.
 
-$$
-\begin{aligned}
-H_{0} & : \phi =\ 1\ \implies y_{t} \sim I(0) \ | \ (raiz unitária) \\
-H_{1} & : |\phi| <\ 1\ \implies y_{t} \sim I(0) \ | \ (estacionária)  \\
-\end{aligned}
-$$
-
 A primeira parte então é realizar nossa regressão, nesse caso uma OLS, e obter os resíduos dessa modelagem.
 
 ~~~python
