@@ -6,8 +6,9 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.ganesshkumar.com',
-  trailingSlash: 'never',
+  site: 'https://gabrielp18.github.io/',
+  base: 'my-repo',
+  trailingSlash: 'my-repo',
   integrations: [
     react(),
     tailwind({
