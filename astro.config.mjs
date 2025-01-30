@@ -8,7 +8,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://gabrielp18.github.io/',
   base: 'my-repo',
-  trailingSlash: 'my-repo',
   integrations: [
     react(),
     tailwind({
