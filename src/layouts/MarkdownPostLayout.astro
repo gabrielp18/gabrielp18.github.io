@@ -3,9 +3,9 @@ import { format } from "date-fns";
 import BaseLayout from "./BaseLayout.astro";
 
 const { frontmatter } = Astro.props;
-const pageTitle = `${frontmatter.title} | Ganessh Kumar`;
+const pageTitle = `${frontmatter.title} | Gabriel Pires`;
 const pageDescription = frontmatter.description || undefined;
-const currentPage = "Articles";
+const currentPage = "Artigos";
 
 const id = new URL(Astro.url.pathname, Astro.site).toString() + "#BlogPosting";
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site)
@@ -80,12 +80,12 @@ const ldSchema = {
       <hr class="mt-8" />
       <section class="py-16">
         <div class="text-slate-700 dark:text-slate-100 text-2xl font-semibold">
-          Comments
+          Comentários
         </div>
         <script
           is:inline
           src="https://utteranc.es/client.js"
-          data-repo={"ganesshkumar/comments"}
+          data-repo={"gabrielp18.github.io"}
           issue-term="pathname"
           data-label="comment"
           data-theme="github-light"

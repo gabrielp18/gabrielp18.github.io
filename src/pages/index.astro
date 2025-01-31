@@ -5,19 +5,19 @@ import BlogPost from "../components/BlogPost.astro";
 import { Image } from 'astro:assets';
 import gkImage from "../assets/images/ganesshkumar-emoji.webp";
 
-const pageTitle = "Home | Ganessh Kumar";
+const pageTitle = "Gabriel Pires";
 const currentPage = "Home";
 
 const ldSchema = {
   "@context": "https://schema.org",
   "@type": "Website",
   url: Astro.site,
-  name: "Ganessh Kumar's personal website - Digital Garden",
-  description: "Dive into the world of technology and programming with me",
+  name: "Gabriel Pires",
+  description: "Descubra a união entre IA e mercado financeiro",
   author: {
     "@type": "Person",
-    name: "Ganessh Kumar",
-    url: "https://www.ganesshkumar.com",
+    name: "Gabriel Pires",
+    url: "https://gabrielp18.github.io/",
   },
 };
 
@@ -44,22 +44,22 @@ const featuredProjects = allProjects
           <div class="isolate flex flex-col md:flex-row">
             <div class="flex basis-1/2 justify-center">
               <div class="flex flex-col justify-center">
-                <div class="text-sky-100">Hi 👋 I am</div>
-                <h1 class="text-5xl font-bold mt-2">Ganessh Kumar R P</h1>
+                <div class="text-sky-100">Olá, eu sou</div>
+                <h1 class="text-5xl font-bold mt-2">Gabriel Pires</h1>
                 <div class="text-xl mt-2 mb-4">
-                  Full-Stack Software Engineer
+                  Especialista em IA.
                 </div>
                 <h2 class="text-xl font-normal">
-                  Currently building Microsoft Teams at Microsoft.
+                  Criando diferentes soluções para o mercado financeiro.
                   <br />
-                  I build and maintain Obsidian Plugins.
+                  Quem não gosta de trabalhar com dinheiro?.
                 </h2>
                 <a href="/about" class="mt-4">
                   <button
                     type="button"
                     class="inline-flex gap-3 justify-center items-center text-black bg-amber-400 hover:bg-amber-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none w-36"
                   >
-                    About me →
+                    Me conheça →
                   </button>
                 </a>
               </div>
@@ -81,16 +81,16 @@ const featuredProjects = allProjects
           <div class="flex justify-between flex-wrap">
             <div class="w-full md:w-auto">
               <span class="font-bold text-3xl tracking-wide dark:text-slate-100"
-                >Featured</span
+                >Projetos</span
               >
               <span class="font-bold text-3xl text-sky-700 tracking-wide"
-                >Projects</span
+                >Criados</span
               >
             </div>
             <div>
               <a
                 class="text-lg text-slate-700 dark:text-slate-300 underline decoration-sky-500 decoration-2 underline-offset-2 hover:text-sky-700 dark:hover:text-sky-400"
-                href="/projects">View all projects →</a
+                href="/projects">Veja todos eles →</a
               >
             </div>
           </div>
@@ -111,17 +111,17 @@ const featuredProjects = allProjects
           <div class="flex justify-between flex-wrap">
             <div class="w-full md:w-auto">
               <span class="font-bold text-3xl tracking-wide dark:text-slate-100"
-                >Recent</span
+                >Últimos</span
               >
               <span
                 class="font-bold text-3xl dark:text-sky-400 text-sky-700 tracking-wide"
-                >Articles</span
+                >Artigos</span
               >
             </div>
             <div>
               <a
                 class="text-lg text-slate-700 dark:text-slate-300 underline decoration-sky-500 decoration-2 underline-offset-2 hover:text-sky-700 dark:hover:text-sky-400"
-                href="/articles">View all articles →</a
+                href="/articles">Veja todos eles →</a
               >
             </div>
           </div>
