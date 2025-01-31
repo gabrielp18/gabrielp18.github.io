@@ -3,9 +3,9 @@ import { format } from "date-fns";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 
-const pageTitle = "Articles | Ganessh Kumar";
-const pageDescription = "Articles written by Ganessh Kumar";
-const currentPage = "Articles";
+const pageTitle = "Artigos | Gabriel Pires";
+const pageDescription = "Artigos escritos por Gabriel Pires";
+const currentPage = "Artigos";
 const allPosts = await Astro.glob("../pages/articles/*.md");
 const allPostsByYear = allPosts.reduce((acc: any, post) => {
   const year = format(new Date(post.frontmatter.pubDate), "yyyy");
@@ -32,7 +32,7 @@ const ldSchema = {
   author: {
     "@type": "Person",
     "@id": "https://www.ganesshkumar.com/author/ganesshkumar/#Person",
-    name: "Ganessh Kumar",
+    name: "Gabriel Pires",
     url: "https://www.ganesshkumar.com",
     image: {
       "@type": "ImageObject",
@@ -46,7 +46,7 @@ const ldSchema = {
   publisher: {
     "@type": "Organization",
     "@id": "https://www.ganesshkumar.com",
-    name: "Ganessh Kumar",
+    name: "Gabriel Pires",
     logo: {
       "@type": "ImageObject",
       "@id":
@@ -71,7 +71,7 @@ const ldSchema = {
         <h1 class="font-bold text-3xl">
           <span
             class="tracking-wide underline decoration-sky-500 decoration-4 underline-offset-2 dark:text-slate-100"
-            >Articles</span
+            >Artigos</span
           >
         </h1>
       </p>
