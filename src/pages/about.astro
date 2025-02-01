@@ -57,42 +57,34 @@ const ldSchema = {
   currentPage={currentPage}
   ldSchema={ldSchema}
 >
-  <div class="bg-whtie dark:bg-gray-800 dark:text-slate-100">
+  <div class="bg-white dark:bg-gray-800 dark:text-slate-100">
     <div class="flex flex-col h-full max-w-5xl mx-auto overflow-hidden px-4">
-      <p class="text-3xl my-2">
-        <h1 class="font-bold text-3xl">
-          <span
-            class="tracking-wide underline decoration-sky-500 decoration-4 underline-offset-2"
-            >Sobre mim</span
-          >
-        </h1>
-      </p>
-      <Image
-        class="my-5 w-96 h-96"
-        src={gkImage}
-        alt="profile picture"
-      />
-      <!-- <p class="text-xl">Hello and welcome to my blog!</p> -->
-      <p class="pt-6">
-        Me chamo Gabriel Pires, sou formado pela USP e Mestrando em IA pela 
-        UNESP e eu sou Cientista de Dados Sênior na ANBIMA.
-        Eu trabalho no desenvolvimento de modelos de IA para o mercado financeiro,
-        colaborando com a cultura, pesquisa e disseminação de conhecimento.
-        Sou apaixonado por resolver problemas e apresentar o impacto de nossas 
-        soluções.
-      </p>
-      <p class="pt-6">
-        Uma parte do meu tempo livre passo pesquisando e testando estratégias 
-        quantitativas com o uso de IA para a tomada de decisão. 
-      </p>
-      <p class="pt-6">
-        Outro grande interesse meu é em disseminar o conhecimento para a comunidade.
-        Por isso criei esse site. Quero compartilhar dicas, tutoriais e projetos já desenvolvidos!
-      </p>
-      <p class="pt-6">
-        Redes Sociais: &nbsp;
-        <SocialLinks />
-      </p>
+      <h1 class="font-bold text-3xl my-2">
+        <span class="tracking-wide underline decoration-sky-500 decoration-4 underline-offset-2">
+          Quem sou eu?
+        </span>
+      </h1>
+      <div class="flex flex-col md:flex-row items-center md:items-start gap-6 w-full">
+        <Image class="w-80 max-w-sm h-80 rounded-full shadow-lg" src={gkImage} alt="profile picture" />
+        <div class="w-full">
+          <p>
+            Me chamo Gabriel Pires, sou formado pela USP e Mestrando em IA pela UNESP e eu sou.
+            Eu trabalho no desenvolvimento de modelos de IA para o mercado financeiro, colaborando com a cultura, pesquisa e disseminação de conhecimento.
+            Sou apaixonado por resolver problemas e apresentar o impacto de nossas soluções.
+          </p>
+          <p class="pt-6">
+            Uma parte do meu tempo livre passo pesquisando e testando estratégias quantitativas com o uso de IA para a tomada de decisão.
+          </p>
+          <p class="pt-6">
+            Outro grande interesse meu é em disseminar o conhecimento para a comunidade.
+            Por isso criei esse site. Quero compartilhar dicas, tutoriais e projetos já desenvolvidos!
+          </p>
+          <p class="pt-6">
+            Redes Sociais: &nbsp;
+            <SocialLinks />
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </BaseLayout>
